@@ -1,0 +1,38 @@
+header{
+    background-image: url("/images/pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 87%;
+    height: 145px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 57px;
+    margin-bottom: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .title{
+    margin-bottom: 13px;
+}
+
+header .text{
+    margin-bottom: 6px;
+    width: 55%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1000px ){
+   
+    header .title{
+        font-size: 2.9rem;   
+    }
+    
+    header .text{
+        width: auto;
+        font-size: 1.5rem;
+       
+    }
+}

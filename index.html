@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/styles.css">
+  <script src="/js/app.js" defer></script>
+</head> 
+<body>
+
+  <picture class="background">
+    <img src="/images/bg-pattern.svg" alt="background-image-svg">
+  </picture>
+
+  <header>
+    <h1 class="title">Simple, traffic-based pricing</h1>
+    <p class="text">Sign-up for our 30.day trial. No credit card required</p>
+  </header>
+
+  <main>
+    <div class="main-header">
+      <h2 class="views"> <span class="views-number"></span><span class="views-letter"></span> PAGEVIEWS</h2>
+      <input type="range" id="range" name="cowbell" min="0" max="100" value="60" step="25">
+      <h2 class="price">$<span class="price-number"></span><span class="text month"> / month</span></h2>  
+    </div>
+
+    <div class="main__plan">
+      <p class="text">Monthly Billing</p>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+      <p class="text">Yearly Billing <span class="discount">-25%</span></p>
+    </div>
+
+    <hr>
+
+    <div class="cta">
+      <div class="cta__data">
+        <p class="text data">Unlimited websites</p>
+        <p class="text data">100% data ownership</p>
+        <p class="text data">Email reports</p>
+      </div>
+
+      <button>Start my trial</button>
+    </div>
+
+  </main>
+  
+</body>
+</html>

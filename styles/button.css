@@ -1,0 +1,14 @@
+button{
+    padding: 16px 45px;
+    background-color: var(--Dark-Desaturated-Blue);
+    color: var(--Pale-Blue);
+    border-radius: 5000px;
+    font-weight: 800;
+    height: 41px;
+    display: flex;
+    align-items: center;
+}
+
+button:hover{
+    cursor: pointer;
+}

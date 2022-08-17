@@ -58,5 +58,5 @@ If the visitor switches the toggle to yearly billing, a 25% discount should be a
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@HugoMoncada](https://www.frontendmentor.io/profile/HugoMoncada)
 
